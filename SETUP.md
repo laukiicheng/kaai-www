@@ -6,6 +6,11 @@ Ka'ai Academy for soccer and agility training
 * [ReactJS](https://react.dev/learn)
 * TODO: Github Actions for deployment
 
+### Devlopment Tools
+* Text editor. [Visual Studio Code](https://code.visualstudio.com/download) recommended.
+* AWS IAM user. Restricted access for backend engineers.
+* Github repo collaborator
+
 ### Prerequisites
 * xcode for Mac users
   * To intsall run `xcode-select --install` and accept in pop up window
