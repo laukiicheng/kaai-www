@@ -2,9 +2,21 @@
 # Ka'ai Website
 Ka'ai Academy for soccer and agility training
 
-### Technologies
+### Technical
 * [ReactJS](https://react.dev/learn)
-* TODO: Github Actions for deployment
+* Routing - [React Router](https://reactrouter.com/start/framework/installation)
+  * [Routing Docs](https://reactrouter.com/start/framework/routing)
+* Typing - Typescript
+  * [Using Typescript](https://react.dev/learn/typescript). Typescript is NOT a default in React
+* [React Developer Tools](https://react.dev/learn/react-developer-tools) for browser debugging
+* Deployment - TODO Github Actions
+* Hosting - TODO Github Pages
+* Route 53 - AWS load balances points to hosted Github page
+* State management - TODO React query
+* Dependency Injection - TDB
+* Database - TBD
+* Videos Storage - TODO AWS S3
+* Authentication - TBD - Amazong Coginito
 
 ### Devlopment Tools
 * Text editor. [Visual Studio Code](https://code.visualstudio.com/download) recommended.
@@ -45,4 +57,6 @@ Ka'ai Academy for soccer and agility training
     * `git --version` `git version 2.50.1 (Apple Git-155)`
     * [Github SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-
+### Local Development
+* start app `npm run dev`
+* http://localhost:5173
