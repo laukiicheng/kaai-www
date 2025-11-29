@@ -5,14 +5,10 @@
 * Typing - Typescript
   * [Using Typescript](https://react.dev/learn/typescript). Typescript is NOT a default in React
 * [React Developer Tools](https://react.dev/learn/react-developer-tools) for browser debugging
-* Deployment - TODO Github Actions
-* Production assets stroage - AWS S3.
-  * Build the website and upload to the AWS bucket
-  * `arn:aws:s3:::kaai-academy-www-build-prod`
-* CDN - Cloudfront. Content delivery network
-  * [Deploying react app to S3/cloudfront](https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
+* Deployment - AWS Amplify
+  * [Deploy React to AWS Amplify](https://docs.aws.amazon.com/hands-on/latest/build-react-app-amplify-graphql/module-one.html)
 * DNS service - Route 53 - Allows user to navigate to (Ka'ai Academy)[www.kaaiaacademy.com]
-  * In this case Route 53 is forwarding to Cloudfront.
+  * [Configure AWS Apmlify for custom Route53 domain](https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-amazon-route-53.html)
 * State management - TODO React query
 * Dependency Injection - TDB
 * Database - TBD
